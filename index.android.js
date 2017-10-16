@@ -1,12 +1,13 @@
 // Import library to help create component
 import React, { Component } from 'react';
 import { Text, AppRegistry } from 'react-native';
+import Header from './src/components/header';
 
 // Create a Component
 export default class App extends Component {
   render() {
     return (
-      <Text>Some Text</Text>
+      <Text><Header></Header></Text>
     );
   }
 }
